@@ -15,7 +15,9 @@ export const Footer = () => {
               <div className="w-12 h-12 bg-bloomGold/20 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
                 <Coffee className="w-8 h-8 text-white" />
               </div>
-              <span className="text-2xl font-bold text-white font-serif">Project BLOOM</span>
+              <div>
+                <img src="/logo-white.png" alt="Bloom Logo" className="h-[40px]" />
+              </div>
             </div>
             <p className="text-white   leading-relaxed">
               Empowering young women in Ethiopian coffee communities through innovative technology,
