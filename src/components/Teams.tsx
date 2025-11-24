@@ -4,16 +4,11 @@ export const Teams = () => {
   const highlights = [
     {
       icon: Users,
-      number: "500",
-      label: "Bloom Teams",
-      description: "1,500 women organized into cooperative teams",
+      number: "1500 +",
+      label: "Participants",
+      description: "500 Teams, 3 members per team.",
     },
-    {
-      icon: Award,
-      number: "3",
-      label: "Roles per Team",
-      description: "Coordinator, Lead Technician, Technician",
-    },
+    
     {
       icon: BookOpen,
       number: "4",
@@ -88,7 +83,7 @@ export const Teams = () => {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
           {highlights.map((item, index) => {
             const Icon = item.icon;
             return (

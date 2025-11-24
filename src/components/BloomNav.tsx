@@ -64,10 +64,10 @@ export const BloomNav = () => {
     <>
       {/* Desktop Nav */}
       {isDesktop && (
-        <nav className="fixed top-0 left-0 w-full backdrop-blur-sm bg-black/10 bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50 overflow-hidden">
+        <nav className="fixed top-0 left-0 w-full bg-black/90 bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50 overflow-hidden">
           <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
             <div className="font-bold text-xl">
-              <img src="/logo.png" alt="Bloom Logo" className="h-[40px]" />
+              <img src="/logo-white.png" alt="Bloom Logo" className="h-[40px]" />
             </div>
             <ul className="flex gap-8 text-lg">
               {navItems.map((item) => (
@@ -93,17 +93,17 @@ export const BloomNav = () => {
 
       {/* Mobile/Tablet Nav */}
       {!isDesktop && (
-        <nav className="fixed top-0 left-0 w-full bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50">
+        <nav className="fixed top-0 left-0 w-full bg-black/90 bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50">
           <div className="flex items-center justify-between px-4 py-4">
             <div className="font-bold text-xl">
 
-              <img src="/logo.png" alt="Bloom Logo" className="h-[30px]" />
+              <img src="/logo-white.png" alt="Bloom Logo" className="h-[30px]" />
             </div>
 
             {/* Burger */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-3 rounded-md bg-bloomGold text-bloomDarkCoffee shadow-md"
+              className="p-3 rounded-md bg-bloomGold text-white shadow-md"
               aria-label="Toggle navigation"
             >
               <Coffee

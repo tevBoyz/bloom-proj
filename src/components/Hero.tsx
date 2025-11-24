@@ -46,7 +46,7 @@
             <Button
               onClick={scrollToAbout}
               size="lg"
-              className="bg-white text-black font-semibold text-lg px-10 py-6 rounded-full shadow-xl animate-fade-in hover:scale-105 transition-transform"
+              className="cursor-pointer bg-white text-black font-semibold text-lg px-10 py-6 rounded-full shadow-xl animate-fade-in hover:scale-105 transition-transform"
               style={{ animationDelay: "0.45s" }}
             >
               Learn More
