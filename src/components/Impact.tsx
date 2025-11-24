@@ -43,7 +43,7 @@ export const Impact = () => {
           {/* Image */}
           <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
             <img
-              src="../../public/impact.jpg"
+              src="/impact.jpg"
               alt="Coffee cherries being processed"
               className="w-full h-[550px] object-cover group-hover:scale-105 transition-transform duration-700"
             />

@@ -19,7 +19,7 @@ export const Story = () => {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl group">
                 <img
-                  src="../../public/almaz.jpg"
+                  src="/almaz.jpg"
                   alt="Almaz, Ethiopian coffee farmer"
                   className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
                 />

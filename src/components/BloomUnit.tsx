@@ -33,7 +33,7 @@ export const BloomUnit = () => {
         {/* Hero Image */}
         <div className="mb-16 rounded-3xl overflow-hidden shadow-2xl relative group">
           <img
-            src="../../public/bloom-unit.jpg"
+            src="/bloom-unit.jpg"
             alt="Solar-powered BLOOM Unit with coffee drying beds"
             className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
           />

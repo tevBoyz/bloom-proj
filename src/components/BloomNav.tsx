@@ -97,7 +97,7 @@ export const BloomNav = () => {
           <div className="flex items-center justify-between px-4 py-4">
             <div className="font-bold text-xl">
 
-              <img src="../../public/logo.png" alt="Bloom Logo" className="h-[30px]" />
+              <img src="/logo.png" alt="Bloom Logo" className="h-[30px]" />
             </div>
 
             {/* Burger */}

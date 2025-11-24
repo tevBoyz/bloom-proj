@@ -44,7 +44,7 @@ export const Teams = () => {
           {/* Image */}
           <div className="order-2 lg:order-1 rounded-3xl overflow-hidden shadow-2xl relative group">
             <img
-              src="../../public/teams.jpg"
+              src="/teams.jpg"
               alt="Women in training session"
               className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
             />
