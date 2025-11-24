@@ -95,7 +95,10 @@ export const BloomNav = () => {
       {!isDesktop && (
         <nav className="fixed top-0 left-0 w-full bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50">
           <div className="flex items-center justify-between px-4 py-4">
-            <div className="font-bold text-xl">Bloom</div>
+            <div className="font-bold text-xl">
+
+              <img src="../../public/logo.png" alt="Bloom Logo" className="h-[30px]" />
+            </div>
 
             {/* Burger */}
             <button
