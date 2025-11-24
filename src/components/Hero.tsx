@@ -1,4 +1,3 @@
-import heroImage from "@/assets/hero.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -15,7 +14,7 @@ export const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage}
+          src="../../public/hero.jpg"
           alt="Ethiopian coffee highlands with women farmers"
           className="w-full h-full object-cover scale-110 brightness-[1.15] saturate-125"
         />

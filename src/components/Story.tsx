@@ -1,4 +1,3 @@
-import almazImage from "@/assets/almaz.jpg";
 import { Heart, Quote } from "lucide-react";
 
 export const Story = () => {
@@ -20,7 +19,7 @@ export const Story = () => {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl group">
                 <img
-                  src={almazImage}
+                  src="../../public/almaz.jpg"
                   alt="Almaz, Ethiopian coffee farmer"
                   className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
                 />

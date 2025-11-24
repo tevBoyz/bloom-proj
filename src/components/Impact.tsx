@@ -1,4 +1,3 @@
-import impactImage from "@/assets/impact.jpg";
 import { TrendingUp, Clock, Users, Award } from "lucide-react";
 
 export const Impact = () => {
@@ -44,7 +43,7 @@ export const Impact = () => {
           {/* Image */}
           <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
             <img
-              src={impactImage}
+              src="../../public/impact.jpg"
               alt="Coffee cherries being processed"
               className="w-full h-[550px] object-cover group-hover:scale-105 transition-transform duration-700"
             />

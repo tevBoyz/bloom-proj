@@ -1,4 +1,3 @@
-// import teamsImage from "@/assets/teams.jpg";
 import { Users, Award, BookOpen, Wrench } from "lucide-react";
 
 export const Teams = () => {
@@ -45,7 +44,7 @@ export const Teams = () => {
           {/* Image */}
           <div className="order-2 lg:order-1 rounded-3xl overflow-hidden shadow-2xl relative group">
             <img
-              src="@/assets/teams.jpg"
+              src="../../public/teams.jpg"
               alt="Women in training session"
               className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
             />

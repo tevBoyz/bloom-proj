@@ -1,5 +1,4 @@
 import { Award, TrendingUp, Shield, MapPin } from "lucide-react";
-import pcw from "@/assets/pcw.jpg";
 
 export const PCW = () => {
   return (
@@ -22,7 +21,7 @@ export const PCW = () => {
             </div>
             <div className="relative z-10 flex flex-col justify-center items-center gap-10 mt-10">
               <div className="w-20 h-20 bg-bloomGold/20 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <img className="h-[150px]" src={pcw} alt="PCW logo" />
+                <img className="h-[150px]" src="../../public/pcw.jpg" alt="PCW logo" />
               </div>
               <p className="text-bloomLightGreen leading-relaxed text-lg mb-6">
                 The Proud Coffee Women (PCW) label is a market-facing brand that connects BLOOM Teams
