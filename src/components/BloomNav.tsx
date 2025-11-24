@@ -67,7 +67,7 @@ export const BloomNav = () => {
         <nav className="fixed top-0 left-0 w-full backdrop-blur-sm bg-black/10 bg-bloomDarkCoffee text-bloomBeige shadow-lg z-50 overflow-hidden">
           <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
             <div className="font-bold text-xl">
-              <img src="../../public/logo.png" alt="Bloom Logo" className="h-[40px]" />
+              <img src="/logo.png" alt="Bloom Logo" className="h-[40px]" />
             </div>
             <ul className="flex gap-8 text-lg">
               {navItems.map((item) => (
