@@ -126,7 +126,7 @@ export const BloomNav = () => {
                 <li key={item.id}>
                   <button
                     onClick={() => scrollToSection(item.id)}
-                    className={`cursor-pointer relative inline-flex items-center pb-2 text-left hover:text-bloomGold transition-colors ${
+                    className={`cursor-pointer relative inline-flex items-center pb-2 text-left text-white hover:text-bloomGold transition-colors ${
                       active === item.id ? "text-bloomGold" : ""
                     }`}
                   >
