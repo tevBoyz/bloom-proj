@@ -1,48 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
-/* ----------------------------------------------
-   ROOT DESIGN TOKENS (your Bloom theme)
----------------------------------------------- */
+/* ---------------------------------------------------
+   PROJECT BLOOM — GLOBAL THEME (FINAL VERSION)
+   Earthy, Coffee-Inspired, Ethiopian Highlands Palette
+--------------------------------------------------- */
 :root {
-  font-family: 'Playfair Display', serif;
-  --background: 36 33% 97%;
-  --foreground: 150 35% 15%;
+  /* Core fonts */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
 
-  --bloomGold: #D4A657;
-  --bloomGreen: #3C6E47;
-  --bloomDarkCoffee: #3A2F2A;
-  --bloomBeige: #EFE7D6;
-  --bloomLight: #ffffff;
+  /* Base background + foreground */
+  --background: 36 33% 97%;       /* Bloom Beige */
+  --foreground: 150 35% 15%;      /* Deep Bloom Green */
 
-  --card: 0 0% 100%;
-  --card-foreground: 150 35% 15%;
+  /* Bloom Identity Colors (Corrected and Harmonized) */
+  --bloomGreen: #1c3b2b;          /* Deep forest green */
+  --bloomLightGreen: #e8f0ec;     /* Very soft mint green */
+  --bloomBeige: #f8f9f5;          /* Warm off-white beige */
+  --bloomGold: #d4a858;           /* Premium gold accent */
+  --bloomBrown: #6b4f2a;          /* Coffee brown */
+  --bloomDarkCoffee: #3b2f24;     /* Roasted dark coffee */
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 150 35% 15%;
-
-  --primary: 150 35% 15%;
-  --primary-foreground: 36 33% 97%;
-
-  --secondary: 42 30% 88%;
-  --secondary-foreground: 150 35% 15%;
-
-  --muted: 36 33% 97%;
-  --muted-foreground: 150 8% 46%;
-
-  --accent: 40 52% 58%;
-  --accent-foreground: 150 35% 15%;
-
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 36 33% 97%;
-
-  --border: 150 15% 85%;
-  --input: 150 15% 85%;
-  --ring: 150 35% 15%;
-
-  --radius: 1rem;
-
-  /* Custom Bloom Colors */
+  /* HSL equivalents for Tailwind utilities */
   --bloom-green: 150 35% 15%;
   --bloom-light-green: 150 30% 92%;
   --bloom-beige: 36 33% 97%;
@@ -50,25 +30,45 @@
   --bloom-brown: 30 47% 28%;
   --bloom-dark-coffee: 25 23% 18%;
 
-  --gradient-bloom: linear-gradient(135deg, hsl(150, 30%, 95%) 0%, hsl(150, 30%, 92%) 100%);
-  --gradient-hero: linear-gradient(135deg, hsl(150, 35%, 15%) 0%, hsl(30, 47%, 28%) 100%);
+  /* UI surfaces */
+  --card: 0 0% 100%;
+  --card-foreground: 150 35% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 150 35% 15%;
 
-  --shadow-soft: 0 4px 16px hsl(150 35% 15% / 0.08);
-  --shadow-bloom: 0 8px 24px hsl(150 35% 15% / 0.12);
-  
+  /* Secondary / Muted */
+  --secondary: 42 30% 88%;
+  --secondary-foreground: 150 35% 15%;
+  --muted: 36 33% 97%;
+  --muted-foreground: 150 8% 46%;
 
+  /* Functional tokens */
+  --accent: 40 52% 58%;
+  --accent-foreground: 150 35% 15%;
+  --destructive: 0 72% 45%;
+  --destructive-foreground: 36 33% 97%;
+  --border: 150 15% 85%;
+  --input: 150 15% 85%;
+  --ring: 150 35% 15%;
+  --radius: 1rem;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 16px hsl(var(--bloom-green) / 0.10);
+  --shadow-bloom: 0 8px 24px hsl(var(--bloom-green) / 0.15);
+
+  /* Gradients */
+  --gradient-bloom: linear-gradient(135deg, hsl(150 30% 96%) 0%, hsl(150 30% 92%) 100%);
+  --gradient-hero: linear-gradient(135deg, hsl(150 35% 15%) 0%, hsl(30 47% 28%) 100%);
 }
 
-/* ----------------------------------------------
-   TAILWIND V4 CUSTOM UTILITIES (required)
----------------------------------------------- */
+/* ---------------------------------------------------
+   TAILwind v4 Tokens
+--------------------------------------------------- */
 @theme {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-
   --color-card: hsl(var(--card));
   --color-popover: hsl(var(--popover));
-
   --color-muted-foreground: hsl(var(--muted-foreground));
 
   --color-border: hsl(var(--border));
@@ -77,7 +77,9 @@
   --radius: var(--radius);
 }
 
-/* Utility classes */
+/* ---------------------------------------------------
+   Utility Classes (Tailwind v4 Custom)
+--------------------------------------------------- */
 @utility bg-background { background-color: var(--color-background); }
 @utility text-foreground { color: var(--color-foreground); }
 @utility text-muted-foreground { color: var(--color-muted-foreground); }
@@ -88,18 +90,19 @@
 @utility border-border { border-color: var(--color-border); }
 @utility border-input { border-color: var(--color-input); }
 
-/* ----------------------------------------------
-   BASE STYLES
----------------------------------------------- */
+/* ---------------------------------------------------
+   Base Styles
+--------------------------------------------------- */
 html { scroll-behavior: smooth; }
 
 body {
   @apply bg-background text-foreground;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--font-serif);
   font-weight: 700;
   color: hsl(var(--bloom-green));
 }
@@ -108,25 +111,25 @@ section {
   @apply w-full py-20 px-4;
 }
 
-/* ----------------------------------------------
-   COMPONENTS
----------------------------------------------- */
+/* ---------------------------------------------------
+   Card styling
+--------------------------------------------------- */
 .bloom-card {
-  @apply bg-card rounded-3xl p-8 border border-border/50 transition-all duration-500;
+  @apply bg-card rounded-3xl p-8 border transition-all duration-500;
+  border-color: hsl(var(--border) / 0.6);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(10px);
 }
 
 .bloom-card:hover {
-  box-shadow: 0 20px 40px hsl(150 35% 15% / 0.15);
+  box-shadow: var(--shadow-bloom);
   transform: translateY(-8px);
-  border-color: hsl(var(--bloom-gold) / 0.3);
+  border-color: hsl(var(--bloom-gold) / 0.5);
 }
 
-.bg-bloom-gradient {
-  background: var(--gradient-bloom);
-}
-
+/* ---------------------------------------------------
+   Typography helpers
+--------------------------------------------------- */
 .section-title {
   @apply text-4xl md:text-6xl font-bold text-center mb-6 leading-tight;
   color: hsl(var(--bloom-green));
@@ -135,14 +138,23 @@ section {
 
 .section-subtitle {
   @apply text-lg md:text-xl text-center text-muted-foreground max-w-4xl mx-auto mb-16 leading-relaxed;
-  font-weight: 400;
 }
 
-/* Animations */
+/* ---------------------------------------------------
+   Gradients
+--------------------------------------------------- */
+.bg-bloom-gradient {
+  background: var(--gradient-bloom);
+}
+
+/* ---------------------------------------------------
+   Animations
+--------------------------------------------------- */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }

@@ -17,6 +17,7 @@ const navItems = [
   { id: "impact", label: "Impact", icon: TrendingUp },
   { id: "pcw", label: "PCW", icon: HandHeart },
   { id: "story", label: "Story", icon: Heart },
+  { id: "partners", label: "Partners", icon: Heart },
 ];
 
 export const BloomNav = () => {
@@ -118,7 +119,7 @@ export const BloomNav = () => {
           <div
             className={`overflow-hidden transition-all duration-500 bg-bloomDarkCoffee ${
               isOpen
-                ? "max-h-96 py-4 shadow-lg shadow-white/20 backdrop-blur-sm"
+                ? "max-h-screen py-4 shadow-lg shadow-white/20 backdrop-blur-sm"
                 : "max-h-0"
             }`}
           >

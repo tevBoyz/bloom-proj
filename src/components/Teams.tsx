@@ -4,22 +4,21 @@ export const Teams = () => {
   const highlights = [
     {
       icon: Users,
-      number: "1500 +",
-      label: "Participants",
-      description: "500 Teams, 3 members per team.",
+      number: "1500+",
+      label: "Women Participants",
+      description: "Organized into 500 Bloom Teams, each with 3 members.",
     },
-    
     {
       icon: BookOpen,
       number: "4",
-      label: "Training Pillars",
-      description: "Agronomy, Financial, Technical, Leadership",
+      label: "Core Training Pillars",
+      description: "Agronomy • Financial Literacy • Technical Skills • Leadership",
     },
     {
       icon: Wrench,
       number: "100%",
-      label: "Hands-On",
-      description: "Practical training on BLOOM Unit operation",
+      label: "Hands-On Learning",
+      description: "Practical training on Bloom Unit operation & maintenance.",
     },
   ];
 
@@ -27,20 +26,23 @@ export const Teams = () => {
     <section id="teams" className="bg-bloom-gradient relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-40 right-20 w-64 h-64 bg-bloomGreen/5 rounded-full blur-3xl" />
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
+        
+        {/* Section Title */}
         <h2 className="section-title">Bloom Teams & Training</h2>
         <p className="section-subtitle">
-          Building capacity through structured teams and comprehensive training programs
-          that develop technical skills, business acumen, and leadership capabilities.
+          Project BLOOM strengthens women-led micro-enterprises by organizing participants into structured teams and delivering comprehensive training that builds technical expertise, business confidence, and long-term leadership capacity.
         </p>
 
+        {/* Two Column Layout */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
+
           {/* Image */}
           <div className="order-2 lg:order-1 rounded-3xl overflow-hidden shadow-2xl relative group">
             <img
-              src="/teams.jpg"
-              alt="Women in training session"
+              src="/teams.webp"
+              alt="Young women participating in a Bloom Team training session"
               className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-bloomGreen/60 to-transparent" />
@@ -48,6 +50,8 @@ export const Teams = () => {
 
           {/* Content */}
           <div className="order-1 lg:order-2 space-y-6">
+            
+            {/* Team Structure */}
             <div className="bloom-card relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-32 h-32 bg-bloomGreen/5 rounded-full blur-2xl" />
               <div className="relative z-10">
@@ -56,14 +60,20 @@ export const Teams = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-bloomGreen">Team Structure</h3>
                 <p className="text-foreground leading-relaxed mb-4">
-                  Each BLOOM Team consists of three women with defined roles: a Coordinator who manages
-                  operations and customer relations, a Lead Technician who oversees equipment maintenance,
-                  and a Technician who supports daily operations. This structure ensures knowledge transfer,
-                  mutual support, and sustainable operations.
+                  Each Bloom Team is made up of <strong>three young women</strong> who share responsibility for running their Bloom Unit. Every member is trained in all aspects of operation, while also taking on a focus role:
+                </p>
+                <ul className="list-disc pl-6 text-foreground/90 space-y-1">
+                  <li><strong>Coordinator:</strong> Manages bookings, customer relations, and business decisions.</li>
+                  <li><strong>Lead Technician:</strong> Oversees technical performance, maintenance, and efficiency.</li>
+                  <li><strong>Technician:</strong> Supports daily operations and hands-on processing work.</li>
+                </ul>
+                <p className="text-foreground leading-relaxed mt-4">
+                  This structure ensures reliability, shared learning, and long-term sustainability of each Bloom Unit.
                 </p>
               </div>
             </div>
 
+            {/* Training Program */}
             <div className="bloom-card relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-32 h-32 bg-bloomGold/5 rounded-full blur-2xl" />
               <div className="relative z-10">
@@ -72,13 +82,20 @@ export const Teams = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-bloomGreen">Comprehensive Training</h3>
                 <p className="text-foreground leading-relaxed">
-                  Training covers advanced agronomy for quality improvement, financial management and
-                  bookkeeping, technical maintenance and troubleshooting, and leadership development.
-                  The curriculum combines classroom learning with hands-on practice, ensuring women gain
-                  confidence and competence in all aspects of BLOOM Unit operation.
+                  Bloom Teams receive sequential training across four pillars:
+                </p>
+                <ul className="list-disc pl-6 text-foreground/90 space-y-1 mt-2">
+                  <li><strong>Agronomy:</strong> Fundamentals of quality improvement, harvesting, and cherry selection.</li>
+                  <li><strong>Financial Literacy:</strong> Saving, bookkeeping, pricing strategy, and managing earnings.</li>
+                  <li><strong>Technical Skills:</strong> Operation, troubleshooting, and maintenance of Bloom Unit equipment.</li>
+                  <li><strong>Leadership & Teamwork:</strong> Communication, conflict resolution, and community engagement.</li>
+                </ul>
+                <p className="text-foreground leading-relaxed mt-4">
+                  The curriculum combines classroom learning with practical field exercises, enabling women to become confident operators, entrepreneurs, and leaders in their communities.
                 </p>
               </div>
             </div>
+
           </div>
         </div>
 
@@ -93,7 +110,9 @@ export const Teams = () => {
                   <div className="w-16 h-16 bg-gradient-to-br from-bloomGold to-bloomGold/70 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                     <Icon className="w-8 h-8 text-bloomDarkCoffee" />
                   </div>
-                  <div className="text-4xl font-bold text-bloomGreen mb-2 group-hover:text-bloomGold transition-colors duration-300">{item.number}</div>
+                  <div className="text-4xl font-bold text-bloomGreen mb-2 group-hover:text-bloomGold transition-colors duration-300">
+                    {item.number}
+                  </div>
                   <div className="text-lg font-semibold text-bloomGreen mb-2">{item.label}</div>
                   <div className="text-sm text-muted-foreground">{item.description}</div>
                 </div>
@@ -101,6 +120,7 @@ export const Teams = () => {
             );
           })}
         </div>
+
       </div>
     </section>
   );
