@@ -40,7 +40,7 @@ export const Impact = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="section-title">Transformative Impact</h2>
         <p className="section-subtitle">
-          BLOOM creates measurable economic, social, and environmental change—unlocking 
+          BLOOM creates measurable economic, social, and environmental change, unlocking 
           new opportunities for women, improving coffee quality, and strengthening 
           community resilience across Ethiopia’s coffee highlands.
         </p>
@@ -112,7 +112,7 @@ export const Impact = () => {
                   100%
                 </div>
                 <p className="text-bloomLightGreen leading-relaxed">
-                  Firewood replaced by clean biogas in participating households—reducing 
+                  Firewood replaced by clean biogas in participating households, reducing 
                   smoke-related health risks and lowering deforestation pressure.
                 </p>
               </div>

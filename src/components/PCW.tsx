@@ -37,7 +37,7 @@ export const PCW = () => {
             {/* Description */}
             <p className="text-bloomLightGreen leading-relaxed text-lg text-center max-w-xl mb-6">
               The Proud Coffee Women (PCW) label elevates BLOOM Team coffee to
-              the global specialty market — ensuring buyers can identify,
+              the global specialty market, ensuring buyers can identify,
               support, and celebrate women-led, sustainably produced Ethiopian coffee.
             </p>
 
@@ -58,7 +58,7 @@ export const PCW = () => {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-bloomGreen">Fair Pricing</h4>
                 <p className="text-muted-foreground">
-                  Transparent, direct-trade relationships ensure women earn up to 73% of FOB value —
+                  Transparent, direct-trade relationships ensure women earn up to 73% of FOB value,
                   significantly higher than the industry average.
                 </p>
               </div>
@@ -88,7 +88,7 @@ export const PCW = () => {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-bloomGreen">Full Traceability</h4>
                 <p className="text-muted-foreground">
-                  Buyers can trace every lot back to the exact Bloom Team —
+                  Buyers can trace every lot back to the exact Bloom Team,
                   reinforcing transparency and rewarding women-led excellence.
                 </p>
               </div>
@@ -104,7 +104,7 @@ export const PCW = () => {
           <div className="relative z-10">
             <h3 className="text-3xl font-bold mb-4 text-bloomGreen">Market Impact</h3>
             <p className="text-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-              PCW creates a bridge between empowered women producers and global specialty buyers — 
+              PCW creates a bridge between empowered women producers and global specialty buyers,
               proving that exceptional quality, ethical sourcing, and real social impact can thrive together.
             </p>
           </div>

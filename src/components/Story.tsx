@@ -73,7 +73,7 @@ export const Story = () => {
                 <p className="text-lg text-foreground leading-relaxed italic">
                   “Now I process coffee in under 2 hours. Buyers come directly to me 
                   because the quality is high. I tripled my income and sent my eldest daughter 
-                  to secondary school. Other women ask me to train them — I’m no longer just 
+                  to secondary school. Other women ask me to train them. I’m no longer just 
                   a farmer's wife. I’m a leader and a businesswoman.”
                 </p>
               </div>

@@ -14,7 +14,7 @@ export const Partners = () => {
       name: "MCRO",
       role: "Implementation Partner",
       description:
-        "Leads field implementation, training, coaching, and monitoring across Bloom communities—ensuring women receive continuous technical and business support.",
+        "Leads field implementation, training, coaching, and monitoring across Bloom communities, ensuring women receive continuous technical and business support.",
     },
     {
       icon: Building2,
