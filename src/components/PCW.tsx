@@ -9,8 +9,7 @@ export const PCW = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="section-title">Proud Coffee Women Market Linkage</h2>
         <p className="section-subtitle">
-          A premium women-led coffee brand connecting BLOOM Teams directly with
-          specialty buyers who value quality, ethics, and full traceability.
+          PCW is rural women-led coffee label connecting BLOOM Teams directly with specialty buyers who value quality, ethics, and full traceability.
         </p>
 
         <div className="mt-16 grid md:grid-cols-2 gap-16 items-center">
@@ -58,8 +57,7 @@ export const PCW = () => {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-bloomGreen">Fair Pricing</h4>
                 <p className="text-muted-foreground">
-                  Transparent, direct-trade relationships ensure women earn up to 73% of FOB value,
-                  significantly higher than the industry average.
+                  Transparent, direct-trade relationships ensure women a fair value for a dignified life, higher than the industry average.
                 </p>
               </div>
             </div>
@@ -73,8 +71,7 @@ export const PCW = () => {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-bloomGreen">Quality Certification</h4>
                 <p className="text-muted-foreground">
-                  PCW coffee is verified as sustainably produced, specialty-grade,
-                  and processed using Bloom Unit clean-energy technology.
+                  PCW coffee is verified as sustainably produced, specialty-grade, and processed using Bloom Unit clean-energy technology.
                 </p>
               </div>
             </div>
@@ -88,8 +85,7 @@ export const PCW = () => {
                 </div>
                 <h4 className="text-xl font-bold mb-3 text-bloomGreen">Full Traceability</h4>
                 <p className="text-muted-foreground">
-                  Buyers can trace every lot back to the exact Bloom Team,
-                  reinforcing transparency and rewarding women-led excellence.
+                  Buyers can trace every lot back to the exact Bloom Team, reinforcing transparency and rewarding women-led excellence.
                 </p>
               </div>
             </div>
@@ -104,8 +100,7 @@ export const PCW = () => {
           <div className="relative z-10">
             <h3 className="text-3xl font-bold mb-4 text-bloomGreen">Market Impact</h3>
             <p className="text-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-              PCW creates a bridge between empowered women producers and global specialty buyers,
-              proving that exceptional quality, ethical sourcing, and real social impact can thrive together.
+              PCW creates a bridge between empowered rural women producers and global buyers, proving that exceptional quality, ethical sourcing, and real social impact can thrive together.
             </p>
           </div>
         </div>

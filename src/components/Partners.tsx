@@ -11,7 +11,7 @@ export const Partners = () => {
     },
     {
       icon: Globe,
-      name: "MCRO",
+      name: "MCRO (A women led rural women focused NGO)",
       role: "Implementation Partner",
       description:
         "Leads field implementation, training, coaching, and monitoring across Bloom communities, ensuring women receive continuous technical and business support.",
@@ -41,8 +41,7 @@ export const Partners = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="section-title">Our Partners</h2>
         <p className="section-subtitle max-w-4xl mx-auto">
-          A powerful, cross-sector coalition enabling technology innovation, women’s training,
-          efficient implementation, government alignment, and financial inclusion.
+          A powerful, cross-sector coalition enabling technology innovation, women’s training, efficient implementation, government alignment, and financial inclusion.
         </p>
 
         {/* Partner Grid */}
@@ -95,10 +94,7 @@ export const Partners = () => {
             <h3 className="text-4xl font-bold mb-6 text-bloomBeige">Stronger Together</h3>
 
             <p className="text-bloomLightGreen text-lg max-w-3xl mx-auto leading-relaxed">
-              Project BLOOM thrives through the shared vision of partners who believe in the 
-              power of women, clean energy, and sustainable coffee. By combining private-sector 
-              innovation, NGO expertise, government support, and financial services, we create 
-              an ecosystem where women can grow thriving rural enterprises and transform their communities.
+              Project BLOOM thrives through the shared vision of partners who believe in the empowerment of women, productive use of energy, and Ethiopia’s journey to net zero. By combining private-sector innovation, NGO expertise, public support, and financial services, we create an ecosystem where women can grow thriving rural enterprises and transform their communities.
             </p>
           </div>
         </div>

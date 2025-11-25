@@ -95,9 +95,7 @@ export const Hero = () => {
             className="text-white/90 text-base md:text-lg leading-relaxed my-6 animate-fade-in drop-shadow"
             style={{ animationDelay: "0.3s" }}
           >
-            Through solar-powered coffee processing, clean energy, and hands-on
-            training, Project BLOOM enables young women to earn more, work safely,
-            and lead thriving rural enterprises.
+            Through solar-powered coffee processing, clean energy, and hands-on training, Project BLOOM enables young women to earn more, work safely, and lead thriving rural enterprises.
           </p>
 
           <Button

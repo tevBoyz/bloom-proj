@@ -4,7 +4,7 @@ export const Impact = () => {
   const metrics = [
     {
       icon: TrendingUp,
-      value: "218.67%",
+      value: "30 to 40%",
       label: "Income Increase",
       description:
         "Average increase in earnings for women after adopting the BLOOM Unit.",
@@ -23,13 +23,6 @@ export const Impact = () => {
       description:
         "Young women organized into Bloom Teams receiving equipment and training.",
     },
-    {
-      icon: Award,
-      value: "53% → 73%",
-      label: "Value Capture",
-      description:
-        "Increase in farmers’ share of the FOB value due to higher-quality washed coffee.",
-    },
   ];
 
   return (
@@ -40,9 +33,7 @@ export const Impact = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="section-title">Transformative Impact</h2>
         <p className="section-subtitle">
-          BLOOM creates measurable economic, social, and environmental change, unlocking 
-          new opportunities for women, improving coffee quality, and strengthening 
-          community resilience across Ethiopia’s coffee highlands.
+          BLOOM creates measurable economic, social, and environmental change, unlocking new opportunities for women, improving coffee quality, and strengthening community resilience in participating communities of Ethiopia’s coffee heartland. 
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
@@ -119,7 +110,7 @@ export const Impact = () => {
 
               <div className="text-center group">
                 <div className="text-5xl font-bold mb-3 text-bloomGold group-hover:scale-110 transition-transform duration-300 inline-block">
-                  15–20%
+                  15 to 20%
                 </div>
                 <p className="text-bloomLightGreen leading-relaxed">
                   Improvement in coffee quality through modern pulping and better fermentation control, 

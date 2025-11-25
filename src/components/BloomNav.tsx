@@ -16,7 +16,7 @@ const navItems = [
   { id: "teams", label: "Teams", icon: Users },
   { id: "impact", label: "Impact", icon: TrendingUp },
   { id: "pcw", label: "PCW", icon: HandHeart },
-  { id: "story", label: "Story", icon: Heart },
+  // { id: "story", label: "Story", icon: Heart },
   { id: "partners", label: "Partners", icon: Heart },
 ];
 

@@ -32,8 +32,7 @@ export const Teams = () => {
         {/* Section Title */}
         <h2 className="section-title">Bloom Teams & Training</h2>
         <p className="section-subtitle">
-          Project BLOOM strengthens women-led micro-enterprises by organizing participants into structured teams and delivering comprehensive training that builds technical expertise, business confidence, and long-term leadership capacity.
-        </p>
+          Project BLOOM creates groups of women organizing them into micro-enterprises by organizing participants into structured teams of three women per Bloom unit and delivering comprehensive training that builds technical expertise, business confidence, and long-term leadership capacity.</p>
 
         {/* Two Column Layout */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">

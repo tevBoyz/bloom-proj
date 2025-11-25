@@ -21,7 +21,7 @@ const Index = () => {
       <Teams />
       <Impact />
       <PCW />
-      <Story />
+      {/* <Story /> */}
       <Partners />
       <Footer />
     </div>
