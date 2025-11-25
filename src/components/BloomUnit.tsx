@@ -53,13 +53,13 @@ useEffect(() => {
                   <Sun className="w-8 h-8 text-bloomDarkCoffee" />
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-bloomGreen">
-                  2 kW Solar Power System
+                  Solar Power System
                 </h3>
                 <p className="text-foreground leading-relaxed mb-4">
                   A reliable renewable energy source powering the entire Bloom Unit, ensuring uninterrupted coffee processing and household electricity free of the grid or costly diesel generators
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-foreground/90 text-sm md:text-base">
-                  <li>2 kW of clean energy dedicated to coffee processing and household needs.</li>
+                  <li>Solar clean energy dedicated to coffee processing and household needs.</li>
                   <li>Reduces operating costs and eliminates fuel price volatility.</li>
                   <li>Enables evening lighting and phone charging for Bloom Teams and families.</li>
                   <li>Cuts carbon emissions and aligns with national clean-energy goals.</li>
