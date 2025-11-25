@@ -4,7 +4,7 @@ export const BloomUnit = () => {
   const features = [
     {
       icon: Sun,
-      title: "1 kW Solar Power System",
+      title: "2 kW Solar Power System",
       description: "Clean, reliable energy that powers processing equipment and provides community electricity access, eliminating dependence on unreliable grid power or expensive diesel generators.",
     },
     {

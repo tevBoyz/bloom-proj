@@ -12,7 +12,7 @@ export const Mission = () => {
         <div className="grid md:grid-cols-2 gap-12 mt-16">
           <div className="bloom-card border-l-4 border-bloomGold relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-40 h-40 bg-bloomGold/5 rounded-full blur-2xl group-hover:bg-bloomGold/10 transition-colors duration-500" />
-            <div className="flex items-start gap-4 relative z-10">
+            <div className="flex-col md:flex lg:flex items-start gap-4 relative z-10">
               <div className="w-16 h-16 bg-gradient-to-br from-bloomGold to-bloomGold/70 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <Target className="w-8 h-8 text-bloomDarkCoffee" />
               </div>
@@ -29,7 +29,7 @@ export const Mission = () => {
 
           <div className="bloom-card border-l-4 border-bloomGreen relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-40 h-40 bg-bloomGreen/5 rounded-full blur-2xl group-hover:bg-bloomGreen/10 transition-colors duration-500" />
-            <div className="flex items-start gap-4 relative z-10">
+            <div className="flex-col md:flex lg:flex items-start gap-4 relative z-10">
               <div className="w-16 h-16 bg-gradient-to-br from-bloomGreen to-bloomGreen/70 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <Eye className="w-8 h-8 text-bloomBeige" />
               </div>
