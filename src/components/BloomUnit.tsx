@@ -35,7 +35,7 @@ useEffect(() => {
             {/* Image Left */}
             <div className="rounded-3xl overflow-hidden shadow-2xl relative group">
               <img
-                src="/bloom-unit1.webp"
+                src="/bloom-unit1.png"
                 alt="Solar panels powering the Bloom Unit in an Ethiopian coffee community"
                 className="w-full h-[380px] md:h-[420px] lg:h-[460px] object-cover group-hover:scale-105 transition-transform duration-700"
               />

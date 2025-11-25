@@ -2,7 +2,7 @@ import { Coffee, Mail, MapPin, Heart } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-black/90 bg-bloomDarkCoffee text-white py-20 px-4 relative overflow-hidden">
+    <footer className="bg-black/90 bg-bloomDarkCoffee text-white py-20 px-4 relative overflow-hidden pl:10 lg:pl-40">
       {/* Decorative Elements */}
       <div className="absolute text-white top-10 right-10 w-64 h-64 bg-bloomGold/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute text-white bottom-10 left-10 w-96 h-96 bg-bloomGreen/10 rounded-full blur-3xl pointer-events-none" />

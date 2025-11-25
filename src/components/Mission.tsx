@@ -26,7 +26,7 @@ export const Mission = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-bloomGreen">Our Mission</h3>
                 <p className="text-foreground leading-relaxed text-lg">
-                  To equip young women in Ethiopia’s coffee-growing highlands with the clean energy, modern mechanized processing equipment, and practical skills needed to increase their income, reduce daily labor burdens in collecting firewood, and become leaders in a more equitable, sustainable coffee value chain.
+                  To equip young women and youth in coffee-growing regions with the clean energy, modern mechanized processing equipment, and practical skills needed to increase their income, reduce daily labor burdens in collecting firewood, and become leaders in a more equitable, sustainable coffee value chain.
                 </p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export const Mission = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-bloomGreen">Our Vision</h3>
                 <p className="text-foreground leading-relaxed text-lg">
-                 A future where young women in Ethiopia’s coffee sector are recognized as skilled entrepreneurs, leading modern, energy-efficient processing enterprises, earning fair and stable incomes, and shaping resilient communities that produce exceptional, sustainable coffee.</p>
+                 A future where young women and youth in the coffee sector are recognized as skilled entrepreneurs, leading modern, energy-efficient processing enterprises, earning fair and stable incomes, and shaping resilient communities that produce exceptional, sustainable coffee.</p>
               </div>
             </div>
           </div>
