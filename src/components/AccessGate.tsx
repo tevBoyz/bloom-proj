@@ -3,7 +3,7 @@ import { ReactNode, useEffect, useState } from "react";
 const ACCESS_KEY = "bloom-access-until";
 const ACCESS_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours
 // const ACCESS_DURATION_MS = 1 * 60 * 1000; // 1 min
-const QR_SECRET = "BLOOM20256"; // <--- your secret
+const QR_SECRET = "dttadtn"; // <--- your secret
 
 type AccessGateProps = {
   children: ReactNode;
